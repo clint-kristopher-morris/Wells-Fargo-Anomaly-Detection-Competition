@@ -18,4 +18,4 @@ Classification Report
 weighted avg       0.89      0.84      0.86      5000
 ```
 
-![alt text](figures/scores.png)
+![alt text](figures/score.png)
