@@ -9,6 +9,22 @@ It was determined that the best resampling method was a mixture of random over a
 
 ![alt text](figures/distro.png)
 
+PCA reduction to 15 components and min max scaling was also applied.
+
+#### Removing Outlier Data
+
+Test were conducted to attempt to remove outlier data.
+
+We tried removing outliers by kmeans:
+
+![alt text](figures/kmeans.PNG)
+
+A Gaussian Mixure Model was also tested:
+
+![alt text](figures/GMM.PNG)
+
+However, it was found that the model preformed best without removing data.
+
 ### Model Structure
 
 Implemented nested cross validation for all machine learning models.
