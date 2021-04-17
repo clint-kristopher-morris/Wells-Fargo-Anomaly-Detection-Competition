@@ -8,7 +8,6 @@ Random under-sampling, random over-sampling, SMOTE, ADASYN.
 It was determined that the best resampling method was a mixture of random over and under-sampling. Following the distribution below. 
 
 ![alt text](figures/distro.png)
-
 PCA reduction to 15 components and min max scaling was also applied.
 
 #### Removing Outlier Data
