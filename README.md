@@ -4,7 +4,7 @@
 
 We use nested cross validation for all machine learning models.
 
-![alt text](figures/score.png)
+![alt text](figures/flow.png)
 
 ### Model Evaluation
 ```
