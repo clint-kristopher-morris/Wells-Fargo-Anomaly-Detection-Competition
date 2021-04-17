@@ -1,8 +1,8 @@
 # Wells-Fargo-Anomaly-Detection-Competition
 
-### [Access to Full Report](https://drive.google.com/file/d/15T8OmBw0JUR4cNXvAg5yMq6k8VMvHh_o/view?usp=sharing)
-
 ![alt text](https://thefinancialbrand.com/wp-content/uploads/2019/01/Wells-Fargo-Logo.png)
+
+### [Access to Full Report](https://drive.google.com/file/d/15T8OmBw0JUR4cNXvAg5yMq6k8VMvHh_o/view?usp=sharing)
 
 ### Data Preprocessing
 
