@@ -19,17 +19,19 @@ We tried removing outliers by kmeans:
 
 ![alt text](figures/kmeans.PNG)
 
-A Gaussian Mixure Model was also tested:
+A Gaussian Mixture Model was also tested:
 
 ![alt text](figures/GMM.PNG)
 
 However, it was found that the model preformed best without removing data.
+
 
 ### Model Structure
 
 Implemented nested cross validation for all machine learning models.
 
 ![alt text](figures/flow.png)
+
 
 ### Model Evaluation
 ```
@@ -51,3 +53,11 @@ weighted avg       0.89      0.84      0.86      5000
 ```
 ![alt text](figures/score.png)
 
+
+
+### Model Selection and Inference
+
+
+![alt text](figures/roc-auc.png)
+
+![alt text](figures/shap.png)
