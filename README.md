@@ -1,6 +1,6 @@
 # Wells-Fargo-Anomaly-Detection-Competition
 
-### [Access to Full Report](https://docs.google.com/document/d/1cucKntS9xLNSPFapTKVP4RSRMDApikN5LvseFyidMC0/edit?usp=sharing)
+### [Access to Full Report](https://drive.google.com/file/d/15T8OmBw0JUR4cNXvAg5yMq6k8VMvHh_o/view?usp=sharing)
 
 
 ### Data Preprocessing
