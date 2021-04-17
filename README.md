@@ -1,8 +1,18 @@
 # Wells-Fargo-Anomaly-Detection-Competition
 
+### Data Preprocessing
+
+Imbalanced data, we implemented various techniques of data resampling including; 
+Random under-sampling, random over-sampling, SMOTE, ADASYN.
+
+It was determined that the best resampling method was a mixture of random over and under-sampling. Following the distribution below. 
+
+![alt text](figures/distro.png)
+
+
 ### Model Structure
 
-We use nested cross validation for all machine learning models.
+Implemented nested cross validation for all machine learning models.
 
 ![alt text](figures/flow.png)
 
