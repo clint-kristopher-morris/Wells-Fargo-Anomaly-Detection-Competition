@@ -2,7 +2,9 @@
 
 ### Model Structure
 
+We use nested cross validation for all machine learning models.
 
+![alt text](figures/score.png)
 
 ### Model Evaluation
 ```
