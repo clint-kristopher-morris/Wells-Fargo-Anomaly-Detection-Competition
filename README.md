@@ -1,5 +1,8 @@
 # Wells-Fargo-Anomaly-Detection-Competition
 
+### Model Structure
+
+
 
 ### Model Evaluation
 ```
