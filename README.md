@@ -16,8 +16,6 @@ Classification Report
     accuracy                           0.84      5000
    macro avg       0.58      0.64      0.60      5000
 weighted avg       0.89      0.84      0.86      5000
-
-![alt text](figures/score.png)
 ```
-
+![alt text](figures/score.png)
 
