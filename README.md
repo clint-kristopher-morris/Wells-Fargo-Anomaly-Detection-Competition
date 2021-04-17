@@ -35,6 +35,26 @@ Implemented nested cross validation for all machine learning models.
 
 ![alt text](figures/flow.png)
 
+### Model Execution
+
+Processing data.
+Where under_fract is the percent downsampled of class 0
+and over_fract is percent more of class 1 than class 0 desired.
+```
+train_data = preprocess_data('data/Simulated_Data_Train.csv')
+test_data = preprocess_data('data/Simulated_Data_Test.csv')
+val_data = preprocess_data('data/Simulated_Data_Validation.csv')
+
+resampled_train_data_Rand = random_over_under(train_data, over_fract=1.05, under_fract=0.3)
+```
+
+Running models:
+```
+logit = NCV(train_scaled.to_numpy(), y_train_rand.to_numpy(), model_name='logit')
+random_forest = NCV(train_scaled.to_numpy(), y_train_rand.to_numpy())
+XGBmodel, best = fast_boost(train_scaled, y_train_rand, test_scaled, y_test, X_val_scaled, y_val)
+```
+
 
 ### Model Evaluation
 ```
