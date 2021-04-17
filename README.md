@@ -9,7 +9,6 @@ It was determined that the best resampling method was a mixture of random over a
 
 ![alt text](figures/distro.png)
 
-
 ### Model Structure
 
 Implemented nested cross validation for all machine learning models.
